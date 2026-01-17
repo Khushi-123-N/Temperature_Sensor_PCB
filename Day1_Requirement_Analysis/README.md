@@ -12,3 +12,7 @@
 - Resistors (for pull-ups and general connections)
 - Capacitors (decoupling/bypass)
 - Connectors/Terminals (for power input and RS485 interface)
+
+## Notes:
+- Initial planning of connections and interfaces done
+- Decided where pull-up resistors and decoupling capacitors will be used
