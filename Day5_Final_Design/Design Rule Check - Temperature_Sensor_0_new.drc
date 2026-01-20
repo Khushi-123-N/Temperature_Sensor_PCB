@@ -1,0 +1,77 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\LENOVO\OneDrive\Documents\GitHub\Altium PCB project\Temperature_Sensor_0_new.PcbDoc
+Date     : 1/17/2026
+Time     : 6:29:53 PM
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad Diode D1-1(5375mil,3977.204mil) on Multi-Layer And Polygon Region (16 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad Diode D1-2(5375mil,4352.796mil) on Multi-Layer And Polygon Region (16 hole(s)) Top Layer 
+Rule Violations :2
+
+Processing Rule : Clearance Constraint (Gap=7mil) (IsPad AND InComponent('Input_2')),(IsPad AND InComponent('Input_2'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7mil) (IsPad AND InComponent('Output_2')),(IsPad AND InComponent('Output_2'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad Diode D1-1(5375mil,3977.204mil) on Multi-Layer And Polygon Region (16 hole(s)) Top Layer Location : [X = 5390.018mil][Y = 3978.884mil]
+   Violation between Short-Circuit Constraint: Between Pad Diode D1-2(5375mil,4352.796mil) on Multi-Layer And Polygon Region (16 hole(s)) Top Layer Location : [X = 5390.018mil][Y = 4354.476mil]
+Rule Violations :2
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=6mil) (Max=20mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Waived Violations Of Rule : Clearance Constraint (Gap=10mil) (All),(All)
+   Waived Violation between Clearance Constraint: (7.873mil < 10mil) Between Pad Input_2-1(3805mil,2159.292mil) on Top Layer And Pad Input_2-2(3805mil,2190mil) on Top Layer Waived by Khushinavalramani Khushinavalramani at 1/14/2026 10:17:03 PMInternal footprint pad spacing < 10mil, as per manufacturer datasheet, electrically safe
+   Waived Violation between Clearance Constraint: (7.873mil < 10mil) Between Pad Output_2-1(2070mil,4519.292mil) on Top Layer And Pad Output_2-2(2070mil,4550mil) on Top Layer Waived by Khushinavalramani Khushinavalramani at 1/14/2026 10:17:03 PMInternal footprint pad spacing < 10mil, as per manufacturer datasheet, electrically safe
+Waived Violations :2
+
+Waived Violations Of Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.706mil < 10mil) Between Pad Input_1-1(1675mil,3669.566mil) on Top Layer And Track (1653.346mil,3693.19mil)(1653.346mil,3716.812mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.706mil]Waived by Khushinavalramani Khushinavalramani at 1/14/2026 9:30:28 PM
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.706mil < 10mil) Between Pad Input_1-1(1675mil,3669.566mil) on Top Layer And Track (1696.654mil,3693.19mil)(1696.654mil,3716.812mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.706mil]Waived by Khushinavalramani Khushinavalramani at 1/14/2026 9:30:34 PM
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.31mil < 10mil) Between Pad Input_1-2(1675mil,3740.04mil) on Top Layer And Track (1653.346mil,3693.19mil)(1653.346mil,3716.812mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.31mil]Waived by Khushinavalramani Khushinavalramani at 1/14/2026 9:30:41 PM
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.31mil < 10mil) Between Pad Input_1-2(1675mil,3740.04mil) on Top Layer And Track (1696.654mil,3693.19mil)(1696.654mil,3716.812mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.31mil]Waived by Khushinavalramani Khushinavalramani at 1/14/2026 9:30:52 PM
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.704mil < 10mil) Between Pad Output_1-1(1785mil,2914.528mil) on Top Layer And Track (1763.346mil,2938.15mil)(1763.346mil,2961.772mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.704mil]Waived by Khushinavalramani Khushinavalramani at 1/14/2026 9:30:52 PM
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.704mil < 10mil) Between Pad Output_1-1(1785mil,2914.528mil) on Top Layer And Track (1806.654mil,2938.15mil)(1806.654mil,2961.772mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.704mil]Waived by Khushinavalramani Khushinavalramani at 1/14/2026 9:30:52 PM
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.31mil < 10mil) Between Pad Output_1-2(1785mil,2985mil) on Top Layer And Track (1763.346mil,2938.15mil)(1763.346mil,2961.772mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.31mil]Waived by Khushinavalramani Khushinavalramani at 1/14/2026 9:30:52 PM
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.31mil < 10mil) Between Pad Output_1-2(1785mil,2985mil) on Top Layer And Track (1806.654mil,2938.15mil)(1806.654mil,2961.772mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.31mil]Waived by Khushinavalramani Khushinavalramani at 1/14/2026 9:30:52 PM
+Waived Violations :8
+
+
+Violations Detected : 4
+Waived Violations : 10
+Time Elapsed        : 00:00:00
